@@ -4,8 +4,7 @@
     "description": "tap-producing test harness for node and browsers",
     "main": "index.js",
     "browser": {
-        "fs": false,
-        "stream": "stream-browserify"
+        "fs": false
     },
     "bin": "./bin/tape",
     "directories": {
