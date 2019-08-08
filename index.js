@@ -2,7 +2,7 @@ var defined = require('defined');
 var createDefaultStream = require('./lib/default_stream');
 var Test = require('./lib/test');
 var createResult = require('./lib/results');
-var through = require('through');
+var through = require('through-browser');
 var process = require('process');
 
 var canEmitExit = typeof process !== 'undefined' && process

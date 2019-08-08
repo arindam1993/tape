@@ -1,7 +1,7 @@
 var tap = require('tap');
 var tape = require('../');
 var forEach = require('for-each');
-var through = require('through');
+var through = require('through-browser');
 
 tap.test('object results', function (assert) {
     var printer = through({ objectMode: true });
